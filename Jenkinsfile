@@ -2,7 +2,7 @@ pipeline {
 	agent none
 	stages {
 	
-		stage('Step-by-Step){
+		stage('Step-by-Step'){
 			agent{
 				label 'master'
 			}
